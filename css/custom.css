@@ -1,0 +1,49 @@
+.bold {
+    font-weight: bold;
+}
+
+.flex-col-even {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flex-col-spcbtw {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-row-spcbtw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#personal-details{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.personal-detail {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+    padding-left: 100px;
+}
+
+.detail-title {
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+#education > div {
+    margin-bottom: 50px;
+}
+
+.skill-icon {
+    font-size: 100px;
+}
