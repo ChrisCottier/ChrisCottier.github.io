@@ -67,3 +67,8 @@
     justify-content: center;
     margin-bottom: 50px;
 }
+
+.personal-logo {
+    height: 100px;
+    width: 100px;
+}

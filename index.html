@@ -17,7 +17,7 @@
 <body>
     <header class="fade-in">
         <div class="navigation-bar flex middle-xs">
-            <!-- <img src="img/logo.svg" class="logo"> PERONAL LOGO HERE-->
+            <img src="img/sunbear.png" class="logo personal-logo">
             <nav class="end-xs">
                 <ul>
                     <li><a href="#about-us">About</a></li>
@@ -387,23 +387,21 @@
                         <div class="col-md"><a rel="noopener noreferrer" target="_blank" class="is-link" href="https://www.linkedin.com/in/christopher-cottier-92587194/"><i class="fab fa-linkedin skill-icon"></i></a></div>
                         <div class="col-md"><a rel="noopener noreferrer" target="_blank" class="is-link" href="https://angel.co/u/christopher-cottier"><i class="fab fa-angellist skill-icon"></i></a></div>
                     </div>
-                    <form action="">
                         <div class="row margin-bottom-small center-xs">
 
                             <div class="col-md padding-small">
                                 <div class="row">
                                     <div class="col-md">
-                                        <input placeholder="Enter Your Name" type="text" name="" value="" class="margin-bottom-small">
-                                        <input placeholder="Enter Your Email" type="email" name=""  value="">
+                                        <input placeholder="Enter Your Name" id="email-name" type="text" name="" value="" class="margin-bottom-small">
+                                        <input placeholder="Enter Your Email" id="email-address" type="email" name=""  value="">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md padding-small">
-                                <textarea placeholder="Your Message" name="" rows="8" class="margin-bottom-small"></textarea>
-                                <input type="submit" value="Submit">
+                                <textarea id="email-message" placeholder="Your Message" name="" rows="8" class="margin-bottom-small"></textarea>
+                                <button id="send-email">Send Email</button>
                             </div>
                         </div>
-                    </form>
                 </div>
             </section>
         </main>
@@ -458,5 +456,6 @@
  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?callback=polyfillsAreLoaded" defer></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
  <script src="js/script.js" defer></script>
+ <script src="js/browserify/bundle.js"></script>
 </body>
 </html>
