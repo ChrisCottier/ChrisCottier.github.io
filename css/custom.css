@@ -47,3 +47,23 @@
 .skill-icon {
     font-size: 100px;
 }
+
+.svg-skill-icon {
+    height: 100px;
+}
+
+#skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.skill {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
