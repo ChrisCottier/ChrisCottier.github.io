@@ -1,74 +1,121 @@
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .flex-col-even {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.flex-row-even {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .flex-col-spcbtw {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .flex-row-spcbtw {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-#personal-details{
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 50px;
-    padding-right: 50px;
+#personal-details {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .personal-detail {
-    /* display: flex;
+  /* display: flex;
     flex-direction: row;
     justify-content: space-evenly; */
-    padding-left: 100px;
+  padding-left: 100px;
 }
 
 .detail-title {
-    padding-right: 30px;
-    font-weight: bold;
+  padding-right: 30px;
+  font-weight: bold;
 }
 
 #education > div {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .skill-icon {
-    font-size: 100px;
+  font-size: 100px;
 }
 
 .svg-skill-icon {
-    height: 100px;
+  height: 100px;
 }
 
 #skills-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
 }
 
 .skill {
-    height: 100%;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+  height: 100%;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .personal-logo {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.splash-text h1 {
+  font-size: 5vw;
+}
+
+.splash-text p {
+  font-size: 2vw;
+}
+
+.about-image {
+  height: 320px;
+  width: 320px;
+}
+
+.contact-icon {
+  font-size: 40px;
+}
+
+.project-image {
+  height: 100%;
+}
+
+div.hover-outer-box {
+  height: 100%;
+}
+
+#education {
+  padding-left: 15px;
+  border-left: 1px solid lightgray;
+  padding-right: 15px;
+  border-right: 1px solid lightgray;
+}
+
+.about-hover {
+  height: 320px;
+  width: 320px;
+}
+
+.about-image-container {
+  padding-left: 40px;
 }
