@@ -127,20 +127,17 @@ div.hover-outer-box {
 }
 
 .wordCarousel div {
-  display: flex;
-  justify-content: center;
   overflow: hidden;
   position: relative;
-  float: right;
-  height: 65px;
+  float: center;
+  height: 80px;
   padding-top: 10px;
   margin-top: -10px;
 }
 
 .wordCarousel li {
-  font-family: Serif;
   color: #ccc;
-  font-weight: 700;
+  font-size: 3vw;
   padding: 0 10px;
   height: 45px;
   margin-bottom: 45px;
@@ -236,4 +233,29 @@ div.hover-outer-box {
   100% {
     margin-top: -270px;
   }
+}
+
+#name {
+  text-align: center;
+}
+
+#about-us {
+  background-color: black;
+  color: white;
+  /* background-color: lightgray; */
+}
+
+#contact {
+  background-color: black;
+  color: white;
+}
+
+.mission {
+  display: flex;
+  width: 100%;
+}
+
+.mission a {
+  padding-left: 10vw;
+  align-self: center;
 }
