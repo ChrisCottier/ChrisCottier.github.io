@@ -25,7 +25,7 @@
 </head>
 <body>
     <header class="fade-in">
-        <div class="navigation-bar flex middle-xs">
+        <div id="nav-bar" class="navigation-bar flex middle-xs">
             <img src="img/sunbear.png" class="logo personal-logo">
             <nav class="end-xs">
                 <ul>
@@ -37,16 +37,21 @@
                 </ul>
             </nav>
         </div>
-        <div class="hero flex middle-xs" style="background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('img/bruce-peninsula.jpg');">
+        <!-- <div class="hero flex middle-xs" style="background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('img/bruce-peninsula.jpg');"> -->
+    <div id="particles-js">
+        <canvas class="particles-js-canvas-el"></canvas>
+    </div>
+
+    <script src="./js/particles.js"></script>
     <div class="hero-text splash-text">
-        <h1 id="name">Chris Cottier</h1>
+        <p id="name" class="unselectable">Chris Cottier</p>
         <h4 class="wordCarousel">    
             <div> 
     <!--        Use classes 2,3, or 4 to match the number of words --> 
                 <ul class="flip3"> 
-                    <li>Software Engineer</li>
-                    <li>Full Stack</li>
-                    <li>Web Developer</li>  
+                    <li class="unselectable">Software Engineer</li>
+                    <li class="unselectable">Full Stack</li>
+                    <li class="unselectable">Web Developer</li>  
                 </ul>
             </div>  
         </h4>
